@@ -1,0 +1,151 @@
+{
+    "id":"100001",
+    "username":"bjohnson@mail.com",
+    "password":"password123",
+    "profile": [
+        {
+            "id":"01",
+            "name":"Bob",
+            "image":"Superman",
+            "save": [
+                {
+                    "id":"111010"
+                }
+            ],
+            "suggest": [
+                {
+                    "id":"112233",
+                    "media": [
+                        {
+                            "id":"1001",
+                            "sport": [
+                                {
+                                    "id":"101",
+                                    "sportType":"NFL Football",
+                                    "team":"Bears",
+                                    "name":"Bears vs Colts",
+                                    "date":"11/24/2019"
+                                }
+                            ],
+                            "movie": [
+                                {
+                                    "id":"440190",
+                                    "genre":"Comedy",
+                                    "rating":"4.5",
+                                    "name":"School of Rock",
+                                    "date":"6/23/2019"
+                                }
+                            ],
+                            "show": [
+                                {
+                                    "id":"889009",
+                                    "genre":"Suspense",
+                                    "rating":"4.7",
+                                    "name":"24",
+                                    "date":"6/19/2019"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "history": [
+                {
+                   "id":"232300",
+                   "id2":"443323" 
+                }
+            ],
+            "role": [
+                {
+                    "id": "01",
+                    "usertype":"adult",
+                    "rule": [
+                        {
+                        "id":"01",
+                        "permission":"all",
+                        "like": [
+                            {
+                                "id":"15"
+                            }
+                        ]
+                        }
+                    ]
+                }
+            ]
+
+        }
+    ],
+    "profile2": [
+        {
+            "id":"02",
+            "name":"Jacki",
+            "image":"MinnieMouse",
+            "save": [
+                {
+                    "id":"111011"
+                }
+            ],
+            "suggest": [
+                {
+                    "id":"112234",
+                    "media": [
+                        {
+                            "id":"1011",
+                            "sport": [
+                                {
+                                    "id":"111",
+                                    "sportType":"WNBA",
+                                    "team":"Chicago Sky",
+                                    "name":"Sky vs Sun",
+                                    "date":"6/23/2019"
+                                }
+                            ],
+                            "movie": [
+                                {
+                                    "id":"497290",
+                                    "genre":"Horror",
+                                    "rating":"3.4",
+                                    "name":"MA",
+                                    "date":"5/20/2019"
+                                }
+                            ],
+                            "show": [
+                                {
+                                    "id":"777709",
+                                    "genre":"Drama",
+                                    "rating":"2.7",
+                                    "name":"Stores they rob",
+                                    "date":"4/11/2019"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "history": [
+                {
+                   "id":"888443",
+                   "id2":"223331" 
+                }
+            ],
+            "role": [
+                {
+                    "id": "01",
+                    "usertype":"adult",
+                    "rule": [
+                        {
+                        "id":"01",
+                        "permission":"all",
+                        "like": [
+                            {
+                                "id":"15"
+                            }
+                        ]
+                        }
+                    ]
+                }
+            ]
+
+        }
+    ]
+}
