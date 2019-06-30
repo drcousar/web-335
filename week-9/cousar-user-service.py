@@ -27,8 +27,11 @@ user = {
 
 }
 
+# Insert User
 user_id = db.users.insert_one(user).inserted_id
 
+# Print insert statement
 print(user_id)
 
+# Query user
 pprint.pprint(db.users.find_one({"employee_id": "0000008"}))
